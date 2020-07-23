@@ -34,6 +34,7 @@ class Shoe
     @material
   end
   
-  def turn_page
+  def cobble
+    puts ""
 
 end
