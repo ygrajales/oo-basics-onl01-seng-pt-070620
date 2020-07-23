@@ -2,10 +2,38 @@
 
 class Shoe 
   
-  attr_accessor :brand, :color, :size, :material, :condition
-  
-  def intialize(brand)
+   def initialize(brand)
     @brand = brand
   end
+  
+  def title
+    @brand
+  end
+  
+  def author=(author)
+    @author = author
+  end
+  
+  def author
+    @author
+  end
+  
+  def page_count=(num)
+    @page_count = num
+  end
+  
+  def page_count
+    @page_count
+  end
+  
+  def genre=(genre)
+    @genre = genre
+  end
+  
+  def genre
+    @genre
+  end
+  
+  def turn_page
 
 end
